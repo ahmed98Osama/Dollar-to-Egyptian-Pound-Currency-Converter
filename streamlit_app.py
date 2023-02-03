@@ -84,26 +84,6 @@ amount = st.number_input(
 if st.button("Convert"):
     with st.spinner("Converting..."):
         update_price(conversion_type, amount)
-# Set focus on the first widget
-st.set_focus(conversion_type)
-
-# Add JavaScript
-st.js(
-    """
-document.querySelectorAll('input[type=text]').forEach(function(el) {
-  el.addEventListener('keydown', function(e) {
-    if (e.keyCode === 13) {
-      var next = document.querySelectorAll('input[type=text]')[
-        Array.from(document.querySelectorAll('input[type=text]')).indexOf(this) + 1
-      ];
-      if (next) {
-        next.focus();
-      }
-    }
-  });
-});
-"""
-)
 
 # Write the source information and credits
 st.write(
