@@ -97,26 +97,11 @@ st.write(
 
 
 
-show_more = False
-show_more2 = False
+
+
 if st.button(' بلاش تدوس '):
-    show_more = True
-if show_more:
-    if st.button(' خليك فاكر اني قولتلك بلاش '):
-        show_more2 = True
-    
-if show_more2:
     st.write(
     "<h5> <span style='color: gold'> موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h5>",
     unsafe_allow_html=True,
-)
+    
 
-# First level button
-first_level_button = st.button("بلاش تدوس")
-if first_level_button:
-    #st.write("This is Level 1 content")
-
-    # Second level button
-    second_level_button = st.button("خليك فاكر اني قولتلك بلاش")
-    if second_level_button:
-        st.write("موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا")
