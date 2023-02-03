@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 
+st.set_page_config(page_keyboard_intercept=True)
 
 def update_price(conversion_type, amount):
     # Get the page content
