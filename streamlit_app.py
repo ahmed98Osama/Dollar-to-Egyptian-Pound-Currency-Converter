@@ -5,7 +5,7 @@ import datetime
 
 #st.set_page_config(page_keyboard_intercept=True)
 st.set_page_config(page_title="Dollar to Pound",
-                   page_icon="🦈",
+                   page_icon="🤑",
                    initial_sidebar_state="collapsed")
 
 def update_price(conversion_type, amount):
