@@ -94,3 +94,8 @@ st.write(
     "<h6>Created by  <a href='https://github.com/ahmed98Osama' style='color: skyblue' target='_blank'>Ahmed Osama</a>, inspierd by <a href='https://www.linkedin.com/in/abdelrahmanmagdy2011/' style='color: red' target='_blank'>Abdelrahman Magdy</a>,  and assisted by <span style='color: #1b8266'>ChatGPT</span>.</h6>",
     unsafe_allow_html=True,
 )
+
+st.write(
+    "<h1> <span style='color: gold'> انا عارف اعم الحج انه ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h1>",
+    unsafe_allow_html=True,
+)
