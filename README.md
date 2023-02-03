@@ -9,7 +9,7 @@ This program is a currency converter that allows the user to convert US dollars 
 # FAQ
 
 **Is this applicaton a cross platform?**  
-Yes since it use streamlit library so you can accsess it anywhere using this link 
+Yes since it use streamlit library so you can accsess it anywhere using this [link](https://bit.ly/ahmedosama_usd_to_egp)
 
 
 
