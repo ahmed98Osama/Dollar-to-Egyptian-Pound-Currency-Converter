@@ -103,6 +103,7 @@ if st.button('بلاش تدوس .... خليك فاكر اني قولتلك بل�
     show_more = True
 
 if show_more:
+    show_more = False
     st.write(
     "<h5> <span style='color: gold'> موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h5>",
     unsafe_allow_html=True,
