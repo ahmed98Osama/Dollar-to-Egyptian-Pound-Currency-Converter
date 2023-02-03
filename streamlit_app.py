@@ -98,7 +98,7 @@ st.write(
 
 
 show_more = False
-
+show_more2 = False
 if st.button(' بلاش تدوس '):
     show_more = True
     if st.button(' خليك فاكر اني قولتلك بلاش '):
