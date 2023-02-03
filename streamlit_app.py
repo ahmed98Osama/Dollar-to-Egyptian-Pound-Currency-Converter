@@ -104,7 +104,10 @@ if st.button('بلاش تدوس .... خليك فاكر اني قولتلك بل�
 
 if show_more:
     st.write(
-    "<h1> <span style='color: gold'> انا عارف اعم الحج انه ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h1>",
+    "<h5> <span style='color: gold'> موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h5>",
     unsafe_allow_html=True,
 )
+st.markdown("<div style='text-align:center;'>{}</div>".format(button), unsafe_allow_html=True)
+
+
 
