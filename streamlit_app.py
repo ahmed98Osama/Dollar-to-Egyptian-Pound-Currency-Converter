@@ -111,4 +111,12 @@ if show_more2:
     unsafe_allow_html=True,
 )
 
+# First level button
+first_level_button = st.button("بلاش تدوس")
+if first_level_button:
+    #st.write("This is Level 1 content")
 
+    # Second level button
+    second_level_button = st.button("خليك فاكر اني قولتلك بلاش")
+    if second_level_button:
+        st.write("موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا")
