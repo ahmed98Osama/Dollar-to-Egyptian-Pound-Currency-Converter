@@ -95,7 +95,16 @@ st.write(
     unsafe_allow_html=True,
 )
 
-st.write(
+
+
+show_more = False
+
+if st.button('بلاش تدوس .... خليك فاكر اني قولتلك بلاش'):
+    show_more = True
+
+if show_more:
+    st.write(
     "<h1> <span style='color: gold'> انا عارف اعم الحج انه ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h1>",
     unsafe_allow_html=True,
 )
+
