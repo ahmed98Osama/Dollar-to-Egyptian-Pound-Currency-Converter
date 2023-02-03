@@ -4,9 +4,8 @@ from bs4 import BeautifulSoup
 import datetime
 
 #st.set_page_config(page_keyboard_intercept=True)
-st.set_page_config(page_title="My Streamlit App",
+st.set_page_config(page_title="Dollar to Pound",
                    page_icon=":rocket:",
-                   layout="wide",
                    initial_sidebar_state="collapsed")
 
 def update_price(conversion_type, amount):
