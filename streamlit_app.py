@@ -1,4 +1,4 @@
-!pip install bs4
+pip install bs4
 import streamlit as st
 import requests
 from bs4 import BeautifulSoup
