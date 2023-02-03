@@ -15,6 +15,6 @@ Yes since it use streamlit library so you can accsess it anywhere using this [li
 
  ![Software interface]( https://i.imgur.com/CbtKYwQ.png)
 
-<video width="500" height="300" controls>
+<video controls>
   <source src="https://github.com/ahmed98Osama/Dollar-to-Egyptian-Pound-Currency-Converter/blob/main/video.webm" type="video/webm">
 </video>
