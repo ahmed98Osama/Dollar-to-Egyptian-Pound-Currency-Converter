@@ -9,7 +9,7 @@ I want to extend my gratitude to [@AbdelrahmanMaxwell](https://github.com/Abdelr
 # FAQ
 
 **Is this applicaton a cross platform?**  
-Yes since it use streamlit library so you can accsess it anywhere using this [link](https://bit.ly/ahmedosama_usd_to_egp)
+Yes since it use streamlit library so you can accsess it anywhere using this [link](https://bit.ly/ahmedosama-usd-to-egp)
 
 
 
