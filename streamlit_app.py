@@ -104,7 +104,7 @@ if st.button(' بلاش تدوس '):
     if st.button(' خليك فاكر اني قولتلك بلاش '):
         show_more2 = True
     
-if show_more2:
+if show_more:
 
     st.write(
     "<h5> <span style='color: gold'> موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h5>",
