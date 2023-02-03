@@ -3,10 +3,11 @@ import requests
 from bs4 import BeautifulSoup
 import datetime
 
-#st.set_page_config(page_keyboard_intercept=True)
-st.set_page_config(page_title="Dollar to Pound",
-                   page_icon="🤑",
-                   initial_sidebar_state="collapsed")
+# st.set_page_config(page_keyboard_intercept=True)
+st.set_page_config(
+    page_title="Dollar to Pound", page_icon="🤑", initial_sidebar_state="collapsed"
+)
+
 
 def update_price(conversion_type, amount):
     # Get the page content
@@ -65,16 +66,44 @@ st.write(
     unsafe_allow_html=True,
 )
 
+
 # Get the conversion type and amount from the user
 conversion_type = st.selectbox(
-    "Select the conversion type", ["(usd_to_egp ) United States Dollar to Egyptian Pound", "(egp_to_usd) Egyptian Pound to United States Dollar"], key="conversion_type"
+    "Select the conversion type",
+    [
+        "(usd_to_egp ) United States Dollar to Egyptian Pound",
+        "(egp_to_usd) Egyptian Pound to United States Dollar",
+    ],
+    key="conversion_type",
 )
-amount = st.number_input("Enter the amount you want to convert", key="amount" , step=0.1 , min_value=0.0)
+amount = st.number_input(
+    "Enter the amount you want to convert", key="amount", step=0.1, min_value=0.0
+)
 
 # If the user clicks the convert button, show a spinner and convert the amount
 if st.button("Convert"):
     with st.spinner("Converting..."):
         update_price(conversion_type, amount)
+# Set focus on the first widget
+st.set_focus(conversion_type)
+
+# Add JavaScript
+st.js(
+    """
+document.querySelectorAll('input[type=text]').forEach(function(el) {
+  el.addEventListener('keydown', function(e) {
+    if (e.keyCode === 13) {
+      var next = document.querySelectorAll('input[type=text]')[
+        Array.from(document.querySelectorAll('input[type=text]')).indexOf(this) + 1
+      ];
+      if (next) {
+        next.focus();
+      }
+    }
+  });
+});
+"""
+)
 
 # Write the source information and credits
 st.write(
