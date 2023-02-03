@@ -13,6 +13,7 @@ Yes since it use streamlit library so you can accsess it anywhere using this [li
 
 
 
- ![Software interface]( https://i.imgur.com/CbtKYwQ.png)
+ ![Software interface](https://github.com/ahmed98Osama/Dollar-to-Egyptian-Pound-Currency-Converter/blob/main/streamlit.gif) 
+ ( https://i.imgur.com/CbtKYwQ.png)
 
 <img src="https://github.com/ahmed98Osama/Dollar-to-Egyptian-Pound-Currency-Converter/blob/main/streamlit.gif" alt="GIF">
