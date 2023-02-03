@@ -103,5 +103,4 @@ if st.button(' بلاش تدوس '):
     st.write(
     "<h5> <span style='color: gold'> موقع ملهوش لزمة و ممكن تعملها من جوجل بس الفراغ يعمل اكتر من كدا </span>  </h5>",
     unsafe_allow_html=True,
-    
-
+    )
